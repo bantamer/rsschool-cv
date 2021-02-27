@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://bantamer.github.io/rsschool-cv/cv
+[My CV](https://bantamer.github.io/rsschool-cv/cv)
