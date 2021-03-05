@@ -3,36 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Petr Pazhytnykh CV</title>
-    <style>
-      .container {
-        color: rgb(0, 0, 0);
-        width: 300px;
-        margin: 0 auto;
-      }
-    </style>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <div class="container">
-      <h1 id="petr-pazhitnykh">Petr Pazhitnykh</h1>
-      <p>pazhitnykhpetr@gmail.com</p>
-      <img src="./images/avatar.jpg" width="300" alt="Petr Pazhytnykh" />
+    <div class="wrapper">
+      <div class="container">
+        <aside class="sidebar">
+          <img src="./images/avatar.jpg" width="100" alt="Petr Pazhytnykh" class="round" />
+          <h3 id="contact">Email</h3>
+          <p>pazhitnykhpetr@gmail.com</p>
+          <h3 id="address">Address</h3>
+          <p>Minsk, Belarus</p>
+          <h3 id="dateOfBirth">Date of birth</h3>
+          <p>07-07-2000</p>
+          <h3 id="nationality">Nationality</h3>
+          <p>Belarus</p>
+          <h3 id="link">Link</h3>
+          <a class="com" href="https://github.com/bantamer">My page on GitHub.com</a>
+          <h3 id="languages">Languages</h3>
+          <ul>
+            <li>Belarusian</li>
+            <li>Russian</li>
+            <li>English</li>
+          </ul>
+        </aside>
 
-      <h2 id="education">Education</h2>
+        <div class="background-general">
+          <header class="header">
+            <h1 id="petr-pazhitnykh">Petr Pazhitnykh</h1>
+            <h6 id="occupation">Technician of Technical Department</h6>
+          </header>
+          <section class="general">
+            <h2 id="education">Education</h2>
+            <article>
+              <p>
+                I’m a student of Belarusian National Technical University at Instrumentation
+                Engineering Faculty, Micro- and Nanotechnology.
+              </p>
+              <p>Now I'm study in Rolling Scopes School and improving JavaScript writing skills.</p>
+            </article>
+          </section>
+          <section class="general">
+            <h2 id="projects">Projects</h2>
+            <ul>
+              <li>
+                <a class="com-general" href="https://github.com/bantamer/JavaScript">
+                  JavaScript Basics
+                </a>
+              </li>
 
-      <p>
-        I’m a student of Belarusian National Technical University at
-        Instrumentation Engineering Faculty, Micro- and Nanotechnology
-      </p>
+              <li>
+                <a class="com-general" href="https://github.com/bantamer/codewars">
+                  My solutions Codewars.com
+                </a>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
 
-      <h2 id="projects">Projects</h2>
-
-      <ul>
-        <li>
-          <a href="https://github.com/bantamer/learn-js">learn-js</a> -
-          JavaScript Basics
-        </li>
-      </ul>
+      <footer class="footer">
+        <a href="https://rs.school/js/">
+          <img src="./images/rss-js-logo.svg" width="80px" alt="rs school logo" />
+        </a>
+        <a href="https://github.com/bantamer">
+          <img src="./images/github-logo.png" width="80px" alt="github logo" />
+        </a>
+      </footer>
     </div>
   </body>
 </html>
