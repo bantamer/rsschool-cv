@@ -1,0 +1,126 @@
+body {
+  font-family: 'Rubik';
+  margin: unset;
+}
+
+h1,
+h6 {
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 2px;
+}
+
+.contacts {
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+}
+
+.contacts i {
+  color: white;
+  padding-right: 15px;
+}
+
+.discord {
+  padding-top: 5px;
+  padding-left: 4px;
+}
+
+.twitter {
+  padding-top: 4px;
+  padding-left: 3px;
+}
+
+.background-general {
+  background-color: #f5f5f5;
+}
+
+.general {
+  padding-left: 28px;
+  padding-right: 40px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 700px;
+}
+
+.sidebar {
+  background-color: #303030;
+  color: rgb(255, 255, 255);
+  padding: 24px 20px 80px 20px;
+  width: 400px;
+  font-size: 12px;
+}
+.sidebar h3 {
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.sidebar p {
+  margin-top: 2px;
+}
+
+.container {
+  color: rgb(0, 0, 0);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+}
+
+.header {
+  background-color: #e4e4e4;
+  padding: 50px 40px 50px 28px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 0px;
+  background: #e4e4e4;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.round {
+  /*avatan*/
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px #303030;
+  width: 100px;
+  display: block;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.logo {
+  padding: 10px;
+}
+
+.com {
+  color: #58a6ff;
+  text-decoration: none;
+}
+
+.com:hover {
+  font-weight: bold;
+}
+.com-general {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.com-general:hover {
+  font-weight: bold;
+}
